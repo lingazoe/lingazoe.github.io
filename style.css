@@ -1,0 +1,60 @@
+body {
+    background-color:#f8e6df;
+    font-family: "Delius Swash Caps", sans-serif;
+    text-align:center;
+}
+
+.title {
+    position:absolute;
+    font-size:40px;
+    top:50px;
+    left:60vmin;
+}
+
+.bio {
+    margin-top:20px;
+    position:relative;
+    font-size:20px;
+}
+
+ul {
+    position:absolute;
+    list-style-type:none;
+    text-align:left;
+    margin-top:35px;
+    font-size:20px;
+    top:70px;
+    right:70px;
+}
+
+li{
+    margin-bottom:5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.circ {
+    position:relative;
+    height:275px;
+    width:275px;
+    border-radius: 50%;
+    background-color:⁠bcacac;
+    bottom:90px;
+    right:110px;
+}
+
+.fix{
+    position:fixed;
+}
+
+.space{
+    padding-bottom:2000px;
+}
+
+a:hover{
+    color:white;
+    transition: 0.2s;
+}
