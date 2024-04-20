@@ -36,14 +36,14 @@ a {
     text-decoration: none;
 }
 
-.circ {
+.content {
     position:relative;
     height:275px;
     width:275px;
     border-radius: 50%;
-    background-color:⁠#bcacac;
     bottom:90px;
     right:110px;
+    background-color:#bcacac;
 }
 
 .fix{
@@ -52,6 +52,10 @@ a {
 
 .space{
     padding-bottom:2000px;
+}
+
+.notice{
+    color:red;
 }
 
 a:hover{
