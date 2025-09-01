@@ -41,13 +41,13 @@ ul {
     margin: 0;
     padding: 0;
     float: left;
-    left:10%;
+    left:5%;
     top: 5%
 }
 
 li {
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 25px;
 }
 
 a {
