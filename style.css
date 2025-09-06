@@ -3,6 +3,17 @@
     src: url('./fonts/OregonLdo-d9q7.ttf') format('truetype');
 }
 
+@keyframes fadeIn {
+    to {
+        opacity: 1
+    }
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
 * {
     font-family: oregon;
 }
