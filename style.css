@@ -9,22 +9,6 @@
 
 /*LINES*/
 
-.vl {
-    border-right: 20px solid black;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 98%
-}
-
-.vl2 {
-    border-right: 20px solid black;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 96%
-}
-
 hr.hl {
     border: 10px solid black;
     position: absolute;
