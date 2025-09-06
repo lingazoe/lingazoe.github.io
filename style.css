@@ -33,6 +33,11 @@ hr.hl {
     left: 0;
 }
 
+hr.hl2 {
+    width: 75%;
+    margin: 25px auto;
+}
+
 /*LIST*/
 
 ul {
@@ -65,6 +70,25 @@ a {
     top: 40%
 }
 
+.p1 {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px
+
+}
+
+.p2 {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 40px;
+
+}
+
 /*BUTTERFLY*/
 
 .b1 {
@@ -76,9 +100,10 @@ a {
 }
 
 .b2 {
-    width:40px;
-    position: absolute;
-    left: 50%;
-    top: 15%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 40px
 }
 
