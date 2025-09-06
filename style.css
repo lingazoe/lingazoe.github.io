@@ -47,11 +47,12 @@ a {
 /*HOME BIO*/
 
 .bio {
-    position:absolute;
-    font-size:20px;
+    display: block;
+    font-size: 20px;
     text-align: center;
-    left: 30%;
-    top: 40%
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
 }
 
 .p1 {
