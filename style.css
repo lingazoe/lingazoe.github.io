@@ -3,34 +3,8 @@
     src: url('./fonts/OregonLdo-d9q7.ttf') format('truetype');
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1
-    }
-}
-
-body {
-    opacity: 0;
-    animation: fadeIn 0.5s ease-in forwards;
-}
-
 * {
     font-family: oregon;
-}
-
-/*LINES*/
-
-hr.hl {
-    border: 10px solid black;
-    position: absolute;
-    width: 99%;
-    bottom: 0;
-    left: 0;
-}
-
-hr.hl2 {
-    width: 75%;
-    margin: 25px auto;
 }
 
 /*LIST*/
@@ -57,49 +31,109 @@ a {
 
 /*HOME BIO*/
 
-.bio {
-    display: block;
-    font-size: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+.bio-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+
+    width: 100%;
 }
 
-.p1 {
-    display: block;
-    font-size: 20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px
+.bio-wrapper {
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    max-width: 750px;
 }
 
-.p2 {
-    display: block;
-    font-size: 18px;
+.bio-text {
+
     text-align: left;
-    margin-left: 180px;
-    margin-top: 40px;
 
+    font-size: 20px;
+    max-width: 450px;
 }
 
-/*BUTTERFLY*/
+.bio-updates {
 
-.b1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:100px;
-    width: 60px
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    font-size: 15px;
 }
 
-.b2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    width: 40px
+
+img {
+
+    width: 80%;
+    height: auto;
 }
+
+/* PROJECTS */
+
+.project-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 145vh;
+
+    width: 100%;
+}
+
+.project-title {
+
+    text-align: left;
+    font-size: 17px;
+    
+    width: 800px;
+
+    padding-bottom: 10px;
+}
+
+.line1 {
+
+    height: 1px;
+
+    background-color: black;
+}
+
+.single-project-container {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    margin-top: 35px;
+
+    width: 55%;
+
+    gap: 10px
+}
+
+.single-title {
+
+    font-size: 17px;
+}
+
+.single-link {
+
+    font-size: 12px;
+}
+
+.single-description {
+
+    font-size: 15px;
+}
+
+
+
 
